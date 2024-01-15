@@ -3,7 +3,7 @@ fun main() {
     val name = readLine()
     
     println("Nice to meet you, $name! How old are you?")
-    val age = readLine()?.toIntOrNull()
+    val age = readLine()
     
     if (age != null) {
         println("So, $name, you're $age years old. That's awesome!")
