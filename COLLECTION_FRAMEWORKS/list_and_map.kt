@@ -107,7 +107,18 @@ fun main(){
     println(map[2])
     println(map[3])
     println(map[4])
-    println(map(5))
+    fun main(){
+        val map = mutableMapOf(1 to "kotlin", 2 to "java", 3 to "python", 4 to "c++")
+        map[5] = "c"
+        println(map)
+        println(map[1])
+        println(map[2])
+        println(map[3])
+        println(map[4])
+        
+        // Add the following code block
+        println(map[5])
+    }
     println(map.get(1))
     println(map.get(2))
     println(map.get(3))
