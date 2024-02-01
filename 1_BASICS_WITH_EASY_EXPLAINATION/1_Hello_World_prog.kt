@@ -3,7 +3,7 @@ fun main(){
 }
 
 
-// Theroy about above code:
+// Theory about above code:
 // 1. fun main() is the entry point of the program.
 // 2. print() is a function that prints the given message inside the round brackets.
 // 3. "Hello World" is the message that is printed on the screen.
