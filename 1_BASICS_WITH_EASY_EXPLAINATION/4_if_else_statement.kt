@@ -54,12 +54,6 @@
 
 
 
-
-
-
-
-
-
 // ### Multiple Conditions:
 
 // You can also chain multiple conditions using `else if`:
@@ -75,22 +69,6 @@
 //         println("The number is zero")
 //     }
 // }
- 
-
-
-// ### Using `when` for More Complex Conditions:
-
-// For more complex scenarios, Kotlin provides the `when` expression, which is similar to a `switch` statement in other languages.
-
- fun main() {
-    val number = 10
-
-    when {
-        number > 0 -> println("Positive")
-        number < 0 -> println("Negative")
-        else -> println("Zero")
-    }
-}
  
 
 // This is an overview of the `if-else` statement in Kotlin. It allows you to make decisions in your code based on certain conditions, providing flexibility in program flow.

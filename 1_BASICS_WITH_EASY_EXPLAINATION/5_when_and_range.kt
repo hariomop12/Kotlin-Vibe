@@ -1,4 +1,4 @@
-// range to check if a number is in range
+// range to check if a number is in range (..)
 // in operator to check if a number is in a range
 // in operator can also be used to check if a character is in a string etc
 
@@ -36,5 +36,6 @@
     }
   }
 
+  // when can also be used to check if a number is in a range
 
     

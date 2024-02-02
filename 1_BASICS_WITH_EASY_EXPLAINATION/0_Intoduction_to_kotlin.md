@@ -9,3 +9,4 @@ So, in simple words, Kotlin and Android Studio make coding an adventure, help ma
 how to run kotlin in vs code https://youtu.be/JX2v49563fI?si=cXXaGtmScpB6Ayvq
 
 or use can use online ide like raplit
+
