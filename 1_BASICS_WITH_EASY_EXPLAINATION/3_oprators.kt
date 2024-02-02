@@ -1,5 +1,5 @@
-// opratore matlab ki kya kam karta hai jaise ki + - * /  % ye sab operator hai
-//  1 mathematice me bhi operator hote hai jaise ki
+//  operator matlab ki kya kam karta hai jaise ki + - * /  % ye sab operator hai
+//  1 mathematics me bhi operator hote hai jaise ki
 //  plus +
 //  minus -
 //  multiply *
@@ -25,17 +25,18 @@
 // 5. /= divide the right value to left value
 // 6. %= modulas the right value to left value
 
-// 5. Equality operators
-// 1. equal to ==
+// 5. comparison operators
+// 1. check left value equal to right value ==
 // 2. not equal to !=
 // 3. === referential equality
+
 
 // 6. Logical operators
 // 1. AND operator &&
 // 2. OR operator ||
 // 3. NOT operator !
 
-// 7 some other of operators
+// 7 some other operators
 // 1 elvis operator ?:
 // 2 safe call operator ?.
 // 3 range operator ..
@@ -67,10 +68,8 @@
 //     println( num1.toFloat() % num2)
 
 // }
-
-// run Program and see output And get logic by yourself easy hi too hai bancho
-
-
+  
+// run Program and see output And get logic by yourself 
 
 
 // 2.Increment and decrement operators
@@ -106,7 +105,7 @@
 //      println( num1 <= num2)
 //     }
 
-// run Program and see output aesi choti chije mee nahi nahi batata hai bhai logic khud se nikal lo 
+// run Program and see output aesi choti chije mee   nahi batata hu bhai logic khud se nikal lo 
 
 // 4. Assignment operators
 
@@ -158,12 +157,6 @@
 //      e %= 6 // Isse e ka value 25 se 1 ho jayega (25 divided by 6 ka remainder)
      
 
-
-// 5. Equality operators
-// 1. equal to ==
-// 2. not equal to !=
-// 3. === referential equality
-// 4. !== referential inequality
 
 // ### Assignment Operators:
 // Assignment operators are used to assign values to variables. In Kotlin, the basic assignment operator is `=`. Additionally, compound assignment operators can be used to combine an operation with assignment.
@@ -227,11 +220,6 @@
 //         println("str1 and str2 do not refer to the same object")
 //     }
 // }
-
-
-
-
-
 
 
 // 6 Logical operators

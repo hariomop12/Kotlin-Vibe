@@ -1,4 +1,4 @@
-// Theroy about val and var in kotlin
+// Theory about val and var in kotlin
 // 1. val is used to declare a variable whose value cannot be changed.
 // 2. var is used to declare a variable whose value can be changed.
 // 3. val is used to declare a constant.
@@ -9,7 +9,7 @@
 // 8. var is used to declare a variable whose value can be changed.
 
 
-// note yellow line is for wornings
+// note yellow line is for warning
 // note red line is for error
 // note green line is for success
 // note blue line is for info
