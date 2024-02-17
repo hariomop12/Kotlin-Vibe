@@ -8,27 +8,27 @@
 # Table of Contents
 
  <details>
-  <summary>1_BASICS_WITH_EASY_EXPLAINATION!</summary>
+  <summary>1. BASICS WITH EASY EXPLANATION!</summary>
   
    
      * 1_Hello_World_prog
-     * 2_datatype_and_val_and_var_explination
-     * 3_operators_explination
-     * 4_if_else_explination
-     * 5_when_explination
-     * 6_loop_explination
-     * 7_genral_terms_explination
-     * 8_keyword_explination
+     * 2_datatype_and_val_and_var_explanation
+     * 3_operators_explanation
+     * 4_if_else_explanation
+     * 5_when_explanation
+     * 6_loop_explanation
+     * 7_general_terms_explanation
+     * 8_keyword_explanation
                 
 </details>
 
 <details>
-  <summary>2_Collection_Framework</summary>
+  <summary>2. Collection Framework</summary>
   
   
-      * 1_Array_explination
-      * 2_List_and_map_explination
-      * 3_enum_and_seald_explination
-      * 4_map_Filter_explination
+      * 1_Array_explanation
+      * 2_List_and_map_explanation
+      * 3_enum_and_sealed_explanation
+      * 4_map_Filter_explanation
                 
 </details>
