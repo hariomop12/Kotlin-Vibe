@@ -6,7 +6,7 @@
 ![Kotlin logotype](https://github.com/alidehkhodaei/kotlin-cheatsheet/raw/main/images/kotlin_logotype.jpg)
 
 # Table of Contents
- -1 1_BASICS_WITH_EASY_EXPLAINATION
+ 1. 1_BASICS_WITH_EASY_EXPLAINATION
      * 1_Hello_World_prog
      * 1_Hello_World_prog
      * 1_Hello_World_prog
