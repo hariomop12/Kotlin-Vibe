@@ -19,14 +19,16 @@
      * 6_loop_explination
      * 7_genral_terms_explination
      * 8_keyword_explination
-  
+                
+</details>
+
+<details>
   <summary>2_Collection_Framework</summary>
   
-   2. 2_Collection_Framework
+  2. 2_Collection_Framework
       * 1_Array_explination
       * 2_List_and_map_explination
       * 3_enum_and_seald_explination
       * 4_map_Filter_explination
-
                 
 </details>
