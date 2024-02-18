@@ -1,5 +1,4 @@
-// ARRAY -- OBJECT THAT HOLDS MULTIPLE VALUES OF THE SAME DATA  TYPE
-
+//  ARRAY -- OBJECT THAT HOLDS MULTIPLE VALUES OF THE SAME DATA  TYPE
 // DECLARE AN ARRAY USNING THE arrayOf() FUNCTION
 // var NUMBER = arrayOf(1,2,3,4,5)
 // var NAMES = arrayOf("John", "Doe", "Smith")
@@ -8,14 +7,14 @@
 
 // In Kotlin, arrays are used to store collections of elements of the same type. Arrays are fixed-size, meaning the size or length of an array is determined at the time of creation and cannot be changed afterward. Kotlin provides several ways to work with arrays.
 
-// ### 1. **Array Initialization:**
-// You can create an array using the `arrayOf()` function. The function takes the initial values of the array as arguments.
+// ### 1. *Array Initialization:*
+// You can create an array using the arrayOf() function. The function takes the initial values of the array as arguments.
 
  
 // val numbers: Array<Int> = arrayOf(1, 2, 3, 4, 5)
  
 
-// ### 2. **Accessing Elements:**
+// ### 2. *Accessing Elements:*
 // Array elements can be accessed using their index. Indexing starts at 0.
 
  
@@ -23,15 +22,15 @@
 // val secondElement = numbers[1] // Accessing the second element
  
 
-// ### 3. **Array Size:**
-// The size of an array is fixed and can be obtained using the `size` property.
+// ### 3. *Array Size:*
+// The size of an array is fixed and can be obtained using the size property.
 
  
 // val size = numbers.size
  
 
-// ### 4. **Looping Through Array:**
-// You can use a `for` loop to iterate over the elements of an array.
+// ### 4. *Looping Through Array:*
+// You can use a for loop to iterate over the elements of an array.
 
  
 // for (number in numbers) {
@@ -39,7 +38,7 @@
 // }
  
 
-// ### 5. **Array Operations:**
+// ### 5. *Array Operations:*
 // Arrays support various operations like slicing, copying, and sorting.
 
  
@@ -48,28 +47,28 @@
 // numbers.sort()                           // Sorts the array in ascending order
  
 
-// ### 6. **Array of Primitives:**
-// Kotlin provides specialized classes for arrays of primitive types (`IntArray`, `DoubleArray`, etc.) to avoid boxing overhead.
+// ### 6. *Array of Primitives:*
+// Kotlin provides specialized classes for arrays of primitive types (IntArray, DoubleArray, etc.) to avoid boxing overhead.
 
  
 // val intArray: IntArray = intArrayOf(1, 2, 3, 4, 5)
  
 
-// ### 7. **Array of Nullable Types:**
+// ### 7. *Array of Nullable Types:*
 // Arrays can also hold nullable types.
 
  
 // val nullableArray: Array<Int?> = arrayOf(1, null, 3, null, 5)
  
 
-// ### 8. **Array Functions:**
-// Kotlin provides various functions on arrays like `filter`, `map`, and `reduce` for more advanced operations.
+// ### 8. *Array Functions:*
+// Kotlin provides various functions on arrays like filter, map, and reduce for more advanced operations.
 
  
 // val doubledArray = numbers.map { it * 2 }
  
 
-// ### 9. **Multidimensional Arrays:**
+// ### 9. *Multidimensional Arrays:*
 // Kotlin supports multidimensional arrays.
 
  
@@ -102,11 +101,7 @@
 
 fun main() {
     // Creating an array of strings
-<<<<<<< HEAD
     val names: Array<String> = arrayOf("Alice", "Boobs", "Charlie")
-=======
-    val names: Array<String> = arrayOf("Alice", "Boobs👙", "Charlie")
->>>>>>> b27f364b03873ee7f5f11ccb27823ba3a0d2b841
 
     // Accessing elements
     println("First name: ${names[0]}")
@@ -117,4 +112,3 @@ fun main() {
         println(name)
     }
 }
-

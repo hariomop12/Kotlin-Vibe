@@ -1,8 +1,12 @@
-<<<<<<< HEAD
-// 1 when keyword
-// 2 Unit keyword
-// 3 until keyword
-=======
+// List of commonly used keywords 
+// 1 Unit keyword
+// 2 until keyword
+// 3 is keyword 
+// 4 Any Keyword -> (thoda hard hai)
+// 5 when Keyword 
+// 6 open keyword
+// 7 return keyword
+
 //keyword in kotlin --> 
 // In Kotlin, a keyword is a reserved word that has a predefined meaning and cannot be used for any other purpose within the programming language. Keywords are an essential part of the language syntax and are used to define the structure, behavior, and flow of Kotlin code.
 
@@ -42,42 +46,17 @@
 // Keywords like `if`, `else`, `when`, `return`, `val`, and `fun` have predefined meanings in Kotlin and cannot be used as identifiers (such as variable names or function names) within the code. They play a crucial role in defining the structure and behavior of Kotlin programs.
 
 
-
-
-// List of commonly used keywords 
-// 1 Unit keyword
-// 2 until keyword
-// 3 is keyword 
-// 4 Any Keyword -> (thoda hard hai)
-// 5 when Keyword 
->>>>>>> b27f364b03873ee7f5f11ccb27823ba3a0d2b841
-
-
-
-
-
-
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
 // For more complex scenarios, Kotlin provides the `when` expression, which is similar to a `switch` statement in other languages.
 // when is used to check multiple conditions and execute a block of code based on the first condition that is true. Here's an example:
-fun main() {
-    val number = 10
+// fun main() {
+//     val number = 10
 
-    when {
-        number > 0 -> println("Positive")
-        number < 0 -> println("Negative")
-        else -> println("Zero")
-    }
-}
+//     when {
+//         number > 0 -> println("Positive")
+//         number < 0 -> println("Negative")
+//         else -> println("Zero")
+//     }
+// }
 
 
 
@@ -102,7 +81,7 @@ fun main() {
 // }
 
 // basically it will print from 1 to 9 and will exclude 10  because of until
-=======
+
 // 1 Unit keyword
 
 
@@ -174,21 +153,21 @@ fun main() {
 // Here's a simple example demonstrating the use of `Any`:
 
  
-fun main() {
-    val anyValue: Any = "Hello, Kotlin!" // anyValue can hold any type of value
-    println(anyValue)
+// fun main() {
+//     val anyValue: Any = "Hello, Kotlin!" // anyValue can hold any type of value
+//     println(anyValue)
 
-    if (anyValue is String) {
-        println("Length of string: ${anyValue.length}") // Using length property
-    }
+//     if (anyValue is String) {
+//         println("Length of string: ${anyValue.length}") // Using length property
+//     }
 
-    val someValue: Any = 42 // anyValue can also hold an integer
-    println(someValue)
+//     val someValue: Any = 42 // anyValue can also hold an integer
+//     println(someValue)
 
-    if (someValue is Int) {
-        println("Squared value: ${someValue * someValue}") // Performing operations
-    }
-}
+//     if (someValue is Int) {
+//         println("Squared value: ${someValue * someValue}") // Performing operations
+//     }
+// }
  
 // In this example, `anyValue` and `someValue` can hold any type of value, and we're able to perform operations on them based on their actual type. This flexibility is provided by the `Any` keyword in Kotlin.
 
@@ -209,18 +188,25 @@ fun main() {
 
 // For more complex scenarios, Kotlin provides the `when` expression, which is similar to a `switch` statement in other languages.
 
-// fun main() {
-//     val number = 10
+fun main() {
+    val number = 10
 
-//     when {
-//         number > 0 -> println("Positive")
-//         number < 0 -> println("Negative")
-//         else -> println("Zero")
-//     }
-// }
+    when {
+        number > 0 -> println("Positive")
+        number < 0 -> println("Negative")
+        else -> println("Zero")
+    }
+}
 
 // get logic by yourself 
 
 
-// 6 
->>>>>>> b27f364b03873ee7f5f11ccb27823ba3a0d2b841
+// 6 open keyword
+// The open keyword is used to allow a class to be inherited by other classes. By default, classes in Kotlin are final, which means they cannot be inherited. However, by marking a class with the open keyword, you can make it inheritable.
+
+// 7 return keyword
+// The return keyword is used to exit a function or a lambda expression and return a value. It can also be used to return from a labeled function or a lambda expression. Here's an example:
+
+// fun sum(a: Int, b: Int): Int {
+//     return a + b
+// }
