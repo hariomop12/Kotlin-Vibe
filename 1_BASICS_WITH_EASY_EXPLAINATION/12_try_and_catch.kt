@@ -14,5 +14,3 @@ fun main() {
 }
 
 // Output: Exception: Index 5 out of bounds for length 5
- 
-
