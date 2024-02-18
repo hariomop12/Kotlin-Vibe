@@ -1,5 +1,5 @@
 // in this section we will learn about list and map in kotlin
-//lits type of collection that holds multiple items in an order
+// lits type of collection that holds multiple items in an order
 // there are two types of list mutable and immutable list
 
 // 1 immutable list
@@ -95,12 +95,27 @@
 //     println(list)
 // }
 
+// See what function do what and get logic by your self
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 
 // 2 MAP ARE USE TO STORE KEY VALUE PAIR 
 
 // map is created using mapOf() function
 // map is read only collection
+// it is used for storing key value pairs --> as name suggest
+
 
 
 fun main(){
@@ -111,18 +126,7 @@ fun main(){
     println(map[2])
     println(map[3])
     println(map[4])
-    fun main(){
-        val map = mutableMapOf(1 to "kotlin", 2 to "java", 3 to "python", 4 to "c++")
-        map[5] = "c"
-        println(map)
-        println(map[1])
-        println(map[2])
-        println(map[3])
-        println(map[4])
-        
-        // Add the following code block
-        println(map[5])
-    }
+    println(map[5])
     println(map.get(1))
     println(map.get(2))
     println(map.get(3))
@@ -161,5 +165,6 @@ fun main(){
 
 // it contains lots of function like filter, map, etc so prefer to see it official documentation link is given below AND AFTER WRITTING CODE WE WILL SE MANY TYPES OF ITS FUNCTIONALITY ACCORDING TO OUR NEED
 
+// See what function do what and get logic by your self
 
 // https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/index.html

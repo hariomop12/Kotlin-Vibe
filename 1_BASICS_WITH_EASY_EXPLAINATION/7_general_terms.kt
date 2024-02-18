@@ -4,6 +4,7 @@
 // 4 type casting (Type Conversion)
 // 5 concatenation
 // 6 Character escape
+// 7 Arrguments
  
  
 
@@ -75,19 +76,19 @@
  
 // CODE
 
-fun main() {
-    // Using escape sequences in a string
-    val message = "Hello\nWorld!"  // \n represents a newline
-    println(message)
+// fun main() {
+//     // Using escape sequences in a string
+//     val message = "Hello\nWorld!"  // \n represents a newline
+//     println(message)
 
-    // Using escape sequences in a character literal
-    val singleQuote = '\''  // Represents a single quote character
-    println(singleQuote)
+//     // Using escape sequences in a character literal
+//     val singleQuote = '\''  // Represents a single quote character
+//     println(singleQuote)
 
-    // Using multiple escape sequences in a string
-    val multipleEscapes = "First line\nSecond line\tTabbed"  // \n for newline, \t for tab
-    println(multipleEscapes)
-}
+//     // Using multiple escape sequences in a string
+//     val multipleEscapes = "First line\nSecond line\tTabbed"  // \n for newline, \t for tab
+//     println(multipleEscapes)
+// }
  
 
 // see output and getlogic
@@ -98,6 +99,21 @@ fun main() {
 // - `\n` is used to insert a newline character in the string `"Hello\nWorld!"`, causing the output to display "Hello" on one line and "World!" on the next line.
 // - `\'` is used to insert a single quote character into the variable `singleQuote`.
 // - `\n` and `\t` are used in the string `"First line\nSecond line\tTabbed"` to insert a newline and a tab, respectively, creating formatted output.
+
+// 7 Arrguments
+
+// Arguments are the actual values that are passed to a function or method when it is called.
+// Arguments are the concrete data that fulfill the function or method's parameter requirements.
+// When calling a function or method, you provide arguments to match the parameters defined in its signature.
+// Arguments are the values passed to the function or method to be processed within its execution.
+
+// Example:
+
+fun main() {
+    greet("Alice" "30") // "Alice" is the argument passed to the greet function
+}
+
+// In this example, "Alice" and 30 are the arguments passed to the greet function.
 
 
 

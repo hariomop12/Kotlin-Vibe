@@ -1,17 +1,17 @@
-// A block of code that performs a specific task
-// Breaks a large program into smaller modular chunks
-// Declared using the fun keyword
-// Can take arguments with either named or default values
+//general syntax of function
 
+// fun functionName(parameter1: Type, parameter2: Type, ...): ReturnType {
+//     // Function body
+// }
 
-// (Almost) Everything has a value in Kotlin, including functions. This means that you can store functions in variables, pass them as arguments to other functions, and return them from other functions. This is known as higher-order functions.
-// (Almost) Everything is an expression in Kotlin, including functions. This means that you can use functions as part of other expressions, such as when you want to return a value from a function based on a condition.
 
 
 // 1 Unit returning functions
 // If a function does not return any useful value, its return type is Unit
 // Unit is similar to void in Java
 // eg. 
+
+
 
 // fun printMessage(message: String): Unit {
 //     println(message)
@@ -32,6 +32,7 @@
 
 // 2 function with arguments
 
+// A function can have one or more arguments (parameters) that are used to perform some operation and produce a result. Here's an example of a function with arguments:
 
 // 1 default parameters
 // 2 required parameters
@@ -44,35 +45,33 @@
 // }
 
 // fun main() {
-//     greet("Alice")  // Uses the default greeting
-//     greet("Bob", "Hi")  // Provides a custom greeting
+//     greet("Alice")      // Uses the default greeting
+//     greet("Bob","Hi")  // Provides a custom greeting
+    
 // }
 
 // In this example:
 
-// The greet function has two parameters: name (required) and greeting (with a default value of "Hello").
-// When you call greet("Alice"), it uses the default value for greetifun greet(name: String, age: Int) {
-//     println("Hello, $name! You are $age years old.")
-// }
+// The greet function takes two parameters: name of type String and greeting of type String. The greeting parameter has a default value of "Hello".
 
-// fun main() {
-//     // Call the greet function with required parameters
-//     greet("Alice", 25)
+// When you call the greet function in the main function with only one argument (e.g., greet("Alice")), the default value of the greeting parameter is used.
 
-//     // Uncommenting the next line will result in a compilation error
-
-//     // greet("Hariom") // Error: Not enough arguments for function greet
-// }ng and prints "Hello, Alice!".
-// When you call greet("Bob", "Hi"), you provide a custom value for greeting, and it prints "Hi, Bob!".
-
+// If you provide a value for the greeting parameter (e.g., greet("Bob", "Hi")), the provided value is used instead of the default value.
 
 // 2 required parameters
+fun greeting(name: String,Age: Int ) {
+    println("Hello $name,Your Age is $Age!")
+}
+fun main() {
+    greeting("Alice", 25)
+    greeting("Bob", 30)
+}
 
 // In this example:
 
 // 1 The greet function takes two parameters: name of type String and age of type Int.
 // 1 Inside the function, it prints a greeting message that includes the provided name and age.
-// When you call the greet function in the main function, you must provide values for both name and age. If you try to call it with insufficient arguments (e.g., greet("Boob")), the Kotlin compiler will produce a compilation error because the required parameters are missing.
+// When you call the greet function in the main function, you must provide values for both name and age. If you try to call it with insufficient arguments (e.g., greet("Bob")), the Kotlin compiler will produce a compilation error because the required parameters are missing.
 
 // 3 named parameters
 
@@ -140,22 +139,22 @@
 // val difference = { x: Int, y: Int -> x - y }
 
 
-fun main() {
-    // Example 1: Lambda as an argument to a function
-    val square: (Int) -> Int = { x -> x * x }
-    val result = square(5)
-    println("Square of 5 is: $result")
+// fun main() {
+//     // Example 1: Lambda as an argument to a function
+//     val square: (Int) -> Int = { x -> x * x }
+//     val result = square(5)
+//     println("Square of 5 is: $result")
 
-    // Example 2: Lambda as a variable
-    val greet: (String) -> Unit = { name -> println("Hello, $name!") }
-    greet("John")
+//     // Example 2: Lambda as a variable
+//     val greet: (String) -> Unit = { name -> println("Hello, $name!") }
+//     greet("John")
 
-    // Example 3: Lambda in a higher-order function
-    val numbers = listOf(1, 2, 3, 4, 5)
-    val squaredNumbers = numbers.map { it * it }
-    println("Original numbers: $numbers")
-    println("Squared numbers: $squaredNumbers")
-}
+//     // Example 3: Lambda in a higher-order function
+//     val numbers = listOf(1, 2, 3, 4, 5)
+//     val squaredNumbers = numbers.map { it * it }
+//     println("Original numbers: $numbers")
+//     println("Squared numbers: $squaredNumbers")
+// }
 
 // Explanation:
 
