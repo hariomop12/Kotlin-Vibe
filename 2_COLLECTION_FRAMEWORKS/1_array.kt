@@ -102,7 +102,11 @@
 
 fun main() {
     // Creating an array of strings
+<<<<<<< HEAD
     val names: Array<String> = arrayOf("Alice", "Boobs", "Charlie")
+=======
+    val names: Array<String> = arrayOf("Alice", "Boobs👙", "Charlie")
+>>>>>>> b27f364b03873ee7f5f11ccb27823ba3a0d2b841
 
     // Accessing elements
     println("First name: ${names[0]}")
