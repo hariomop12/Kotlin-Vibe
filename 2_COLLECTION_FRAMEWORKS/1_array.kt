@@ -100,17 +100,17 @@
 
 // In this example, we create an array of integers using the arrayOf() function. We then access the elements of the array using their indices and loop through the array using a for loop. The output of the program will be:
 
-// fun main() {
-//     // Creating an array of strings
-//     val names: Array<String> = arrayOf("Alice", "Boobs👙", "Charlie")
+fun main() {
+    // Creating an array of strings
+    val names: Array<String> = arrayOf("Alice", "Boobs", "Charlie")
 
-//     // Accessing elements
-//     println("First name: ${names[0]}")
-//     println("Second name: ${names[1]}")
+    // Accessing elements
+    println("First name: ${names[0]}")
+    println("Second name: ${names[1]}")
 
-//     // Looping through the array
-//     for (name in names) {
-//         println(name)
-//     }
-// }
+    // Looping through the array
+    for (name in names) {
+        println(name)
+    }
+}
 
