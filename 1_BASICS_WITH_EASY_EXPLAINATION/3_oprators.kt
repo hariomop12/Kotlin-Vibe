@@ -41,6 +41,7 @@
 // 2 safe call operator ?.
 // 3 range operator ..
 // 4 null pointer exception operator !!
+// 5 
 
 
 
@@ -316,3 +317,43 @@ fun main() {
 }
 
 // In this example, the variable name is declared as nullable (String?). The expression name?.length attempts to get the length of the string, but if name is null, the Elvis operator (?:) will provide the default value -1. This way, you can gracefully handle the case where the expression on the left side of the Elvis operator is null, ensuring that you always get a non-null result.
+
+
+
+/*In Kotlin, the `==` operator is used for structural equality comparison, while the `===` operator is used for referential equality comparison.
+
+1. `==` (structural equality):
+   - The `==` operator compares the content or values of two objects to determine if they are equal.
+   - For data types like `Int`, `String`, `Boolean`, etc., `==` checks if their content is the same.
+   - For objects, the `==` operator typically checks if the properties of the objects are the same.
+   - It can be overridden by classes to define custom equality logic.
+
+Example:
+
+ 
+val str1 = "Hello"
+val str2 = "Hello"
+val str3 = "World"
+
+println(str1 == str2) // true (content is the same)
+println(str1 == str3) // false (content is different)
+ 
+
+2. `===` (referential equality):
+   - The `===` operator checks if two references point to the same object in memory.
+   - It's essentially a reference comparison.
+   - It does not depend on the content of the objects but rather on whether they refer to the same memory location.
+
+Example:
+ 
+val str1 = "Hello"
+val str2 = "Hello"
+val str3 = str1
+
+println(str1 === str2) // false (different memory locations)
+println(str1 === str3) // true (same memory location)
+ 
+
+In summary:
+- Use `==` for comparing the content or values of objects.
+- Use `===` for checking if two references point to the same object in memory. */
