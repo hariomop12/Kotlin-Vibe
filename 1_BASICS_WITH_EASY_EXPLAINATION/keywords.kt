@@ -6,6 +6,7 @@
 // 5 when Keyword 
 // 6 open keyword
 // 7 return keyword
+// 9 it keyword
 
 //keyword in kotlin --> 
 // In Kotlin, a keyword is a reserved word that has a predefined meaning and cannot be used for any other purpose within the programming language. Keywords are an essential part of the language syntax and are used to define the structure, behavior, and flow of Kotlin code.
@@ -188,15 +189,15 @@
 
 // For more complex scenarios, Kotlin provides the `when` expression, which is similar to a `switch` statement in other languages.
 
-fun main() {
-    val number = 10
+// fun main() {
+//     val number = 10
 
-    when {
-        number > 0 -> println("Positive")
-        number < 0 -> println("Negative")
-        else -> println("Zero")
-    }
-}
+//     when {
+//         number > 0 -> println("Positive")
+//         number < 0 -> println("Negative")
+//         else -> println("Zero")
+//     }
+// }
 
 // get logic by yourself 
 
@@ -210,3 +211,34 @@ fun main() {
 // fun sum(a: Int, b: Int): Int {
 //     return a + b
 // }
+
+// 9 it keyword
+
+// In Kotlin, "it" is a special keyword that can be used in certain contexts, particularly with higher-order functions and lambda expressions. It's a shorthand way to refer to the single parameter passed to a lambda when there's only one parameter.
+
+// Here's a simple breakdown:
+
+// 1. **Lambda Expressions**: In Kotlin, you can define functions anonymously using lambda expressions. When you have a lambda with only one parameter, you can use "it" instead of explicitly declaring the parameter.
+
+  
+//    val numbers = listOf(1, 2, 3, 4, 5)
+//    val doubled = numbers.map { it * 2 }
+ 
+
+//    Here, "it" refers to each element of the list `numbers` as the lambda is applied to each element.
+
+// 2. **Single Parameter**: "it" can only be used when there's a single parameter in the lambda expression. If there are multiple parameters, you have to explicitly declare them.
+
+   
+//    val sum = { a: Int, b: Int -> a + b } // Here, "it" cannot be used because there are two parameters.
+ 
+
+// 3. **Readability and Conciseness**: Using "it" can make code more concise and readable, especially when the lambda body is short.
+
+//    For instance:
+ 
+//    val names = listOf("Alice", "Bob", "Charlie")
+//    val lengths = names.map { it.length } // Using "it" to refer to the length of each name.
+ 
+
+// In summary, "it" is a handy shorthand in Kotlin for referring to a single parameter in lambda expressions, making code more concise and readable in certain contexts.
