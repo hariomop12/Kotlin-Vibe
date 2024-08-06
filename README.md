@@ -69,6 +69,7 @@
   * 3_lambda_fuction_and_higher_order_function.kt
   * 4_scope_functions.kt
   * 5_Callback_function.kt
+  * 6_extension_function.kt
 </details>
 
 <details>

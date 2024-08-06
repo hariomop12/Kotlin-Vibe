@@ -1,11 +1,10 @@
 run = "kotlinc -d main.jar main.kt && kotlin -classpath main.jar MainKt"
 
-entrypoint = "main.kt"
-
 hidden=["*.jar"]
+modules = ["nix"]
 
 [nix]
-channel = "stable-22_11"
+channel = "stable-24_05"
 
 [packager]
 language = "java"
@@ -18,3 +17,6 @@ pattern = "**/*.{kt,kts,java}"
 
 [languages.kotlin.languageServer]
 start = ["kotlin-language-server"]
+
+[deployment]
+run = ["sh", "-c", "kotlinc -d main.jar main.kt && kotlin -classpath main.jar MainKt"]
