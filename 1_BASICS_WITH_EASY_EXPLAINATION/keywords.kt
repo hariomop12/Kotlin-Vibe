@@ -7,6 +7,7 @@
 // 6 open keyword
 // 7 return keyword
 // 9 it keyword
+// 10 apply keyword
 
 //keyword in kotlin --> 
 // In Kotlin, a keyword is a reserved word that has a predefined meaning and cannot be used for any other purpose within the programming language. Keywords are an essential part of the language syntax and are used to define the structure, behavior, and flow of Kotlin code.
@@ -242,3 +243,72 @@
  
 
 // In summary, "it" is a handy shorthand in Kotlin for referring to a single parameter in lambda expressions, making code more concise and readable in certain contexts.
+
+
+// 10 apply keyword
+
+// In Kotlin, the `apply` function is an extension function that allows you to configure or initialize an object within a block and then return the object itself. It’s often used for object construction and configuration, making your code more concise and readable. Let's break down the usage and behavior of `apply` with some examples.
+
+// ### Key Characteristics of `apply`
+
+// 1. **Receiver Context**: Inside the `apply` block, the object on which `apply` is called becomes the receiver (`this`). This means you can access the object’s properties and methods directly without using the object’s name.
+
+// 2. **Returns the Object**: The `apply` function always returns the object it was called on. This is useful when you want to perform some initialization or configuration on an object and then continue using it.
+
+// 3. **Common Use Cases**: It's commonly used for object creation, initialization, or when you need to modify an object and continue working with it in a fluent style.
+
+// ### Basic Syntax
+ 
+// val result = object.apply {
+//     // Initialization or configuration code
+// }
+ 
+
+// ### Example Usage
+
+// #### 1. Initializing an Object
+
+data class User(var name: String, var age: Int)
+
+val user = User("John Doe", 30).apply {
+    name = "Jane Doe"
+    age = 25
+}
+
+println(user) // Output: User(name=Jane Doe, age=25)
+
+// - **Explanation**: Here, `apply` is used to configure the `User` object right after it's created. The properties `name` and `age` are modified within the `apply` block, and the modified object is returned.
+
+// #### 2. Building a Complex Object
+ 
+// val list = mutableListOf<String>().apply {
+//     add("Kotlin")
+//     add("Java")
+//     add("Swift")
+// }
+
+// println(list) // Output: [Kotlin, Java, Swift]
+ 
+// - **Explanation**: A `MutableList` is created, and `apply` is used to add elements to it. The `apply` block allows the list to be configured and returned, all in one line.
+
+// #### 3. Configuring Views in Android
+// In Android development, `apply` is commonly used to configure views.
+ 
+// val button = Button(context).apply {
+//     text = "Click Me"
+//     textSize = 20f
+//     setOnClickListener {
+//         // Handle click
+//     }
+// }
+ 
+// - **Explanation**: Here, `apply` is used to configure a `Button` immediately after it’s created. This is particularly handy in Android for keeping the view initialization clean and readable.
+
+// ### Why Use `apply`?
+
+// - **Fluent Code Style**: It promotes a fluent and clean code style, especially when configuring objects.
+// - **Readability**: It improves code readability by grouping the configuration logic together.
+// - **Conciseness**: It reduces the need to repeatedly reference the object being configured.
+
+
+// The `apply` function is a powerful tool in Kotlin that helps in object initialization and configuration while keeping the code clean and concise. By using `apply`, you can streamline the creation and configuration of objects, making your code more readable and maintainable.
