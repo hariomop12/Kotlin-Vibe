@@ -24,34 +24,8 @@
   * 10_brake_and_continue_explanation
   * 11_try_and_catch_explanation
   
-  <details>
-    <summary>GENERAL TERMS</summary>
-  
-    * IN KOTLIN
-      * 1 string templateing
-      * 2 parameters
-      * 3 Short circuiting
-      * 4 type casting (Type Conversion)
-      * 5 concatenation
-      * 6 Character escape
-      * 7 Arrguments
-      * 8 first-class citizens 
-  </details>
-  <details>
-    <summary>keywords</summary>
-  
-    * List of commonly used keywords 
-       * 1 Unit keyword
-       * 2 until keyword
-       * 3 is keyword 
-       * 4 Any Keyword -> (thoda hard hai)
-       * 5 when Keyword 
-       * 6 open keyword
-       * 7 return keyword 
-       * 8 break keyword
-       * 9 it keyword
-  </details>
-</details>
+ </details>
+
 
 <details>
   <summary>2. COLLECTION FRAMEWORKS</summary>
@@ -105,4 +79,34 @@
   * regex.kt
   * Annotations.kt
   * Reflection.kt
+</details>
+
+<details>
+    <summary>GENERAL TERMS</summary>
+  
+    * IN KOTLIN
+      * 1 string templateing
+      * 2 parameters
+      * 3 Short circuiting
+      * 4 type casting (Type Conversion)
+      * 5 concatenation
+      * 6 Character escape
+      * 7 Arrguments
+      * 8 first-class citizens 
+  </details>
+  <details>
+    <summary>keywords</summary>
+  
+    * List of commonly used keywords 
+       * 1 Unit keyword
+       * 2 until keyword
+       * 3 is keyword 
+       * 4 Any Keyword -> (thoda hard hai)
+       * 5 when Keyword 
+       * 6 open keyword
+       * 7 return keyword 
+       * 8 break keyword
+       * 9 it keyword
+  </details>
+</details>
 </details>
